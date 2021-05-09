@@ -1,7 +1,7 @@
-package com.lucaszaezur.dsvendas.controllers;
+package com.lucaszarzur.dsvendas.controllers;
 
-import com.lucaszaezur.dsvendas.dto.SellerDTO;
-import com.lucaszaezur.dsvendas.service.SellerService;
+import com.lucaszarzur.dsvendas.dto.SellerDTO;
+import com.lucaszarzur.dsvendas.service.SellerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

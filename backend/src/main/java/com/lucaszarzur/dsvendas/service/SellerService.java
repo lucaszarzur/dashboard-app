@@ -1,8 +1,8 @@
-package com.lucaszaezur.dsvendas.service;
+package com.lucaszarzur.dsvendas.service;
 
-import com.lucaszaezur.dsvendas.dto.SellerDTO;
-import com.lucaszaezur.dsvendas.entities.Seller;
-import com.lucaszaezur.dsvendas.repositories.SellerRepository;
+import com.lucaszarzur.dsvendas.dto.SellerDTO;
+import com.lucaszarzur.dsvendas.entities.Seller;
+import com.lucaszarzur.dsvendas.repositories.SellerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,7 +16,7 @@ public class SellerService {
     private SellerRepository repository;
 
     public List<SellerDTO> findAll() {
-        List< Seller> result = repository.findAll();
+        List<Seller> result = repository.findAll();
 
         return result.stream().map(x -> new SellerDTO(x)).collect(Collectors.toList());
     }

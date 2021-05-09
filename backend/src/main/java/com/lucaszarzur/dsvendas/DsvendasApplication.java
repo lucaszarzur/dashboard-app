@@ -1,4 +1,4 @@
-package com.lucaszaezur.dsvendas;
+package com.lucaszarzur.dsvendas;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,6 +1,6 @@
-package com.lucaszaezur.dsvendas.dto;
+package com.lucaszarzur.dsvendas.dto;
 
-import com.lucaszaezur.dsvendas.entities.Seller;
+import com.lucaszarzur.dsvendas.entities.Seller;
 
 import java.io.Serializable;
 

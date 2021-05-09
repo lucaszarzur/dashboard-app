@@ -1,4 +1,4 @@
-package com.lucaszaezur.dsvendas.entities;
+package com.lucaszarzur.dsvendas.entities;
 
 import javax.persistence.*;
 import java.time.LocalDate;

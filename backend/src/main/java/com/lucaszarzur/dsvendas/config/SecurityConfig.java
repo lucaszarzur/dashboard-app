@@ -1,4 +1,4 @@
-package com.lucaszaezur.dsvendas.config;
+package com.lucaszarzur.dsvendas.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
