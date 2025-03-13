@@ -96,3 +96,14 @@ Se você deseja contribuir com melhorias ou novas funcionalidades para o projeto
 2. **Crie uma branch** para sua feature:
    ```bash
    git checkout -b feature/nova-feature
+   ```
+3. **Faça as alterações** e adicione-as ao seu commit:
+   ```bash
+   git commit -am 'Adicionando nova feature'
+   ```
+4. **Envie suas alterações para o seu repositório fork:
+   ```bash
+   git push origin feature/nova-feature
+   ```
+3. **Abra um Pull Request** explicando as mudanças realizadas.
+
